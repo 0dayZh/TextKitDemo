@@ -120,18 +120,10 @@
 		7625C49718F6E06400EA77D8 /* TextKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7625C4A018F6E06400EA77D8 /* TKDAppDelegate.h */,
-				7625C4A118F6E06400EA77D8 /* TKDAppDelegate.m */,
-				7625C4A318F6E06400EA77D8 /* Main.storyboard */,
-				7625C4A618F6E06400EA77D8 /* TKDViewController.h */,
-				7625C4A718F6E06400EA77D8 /* TKDViewController.m */,
-				7625C4C618F6E51C00EA77D8 /* text.txt */,
-				7625C4A918F6E06400EA77D8 /* Images.xcassets */,
+				76B5094818F7C96A002D8036 /* Resources */,
+				76B5094718F7C962002D8036 /* View Controller */,
+				76B5094618F7C944002D8036 /* Category */,
 				7625C49818F6E06400EA77D8 /* Supporting Files */,
-				7625C4C818F6E80B00EA77D8 /* NSTextStorage+Highlight.h */,
-				7625C4C918F6E80B00EA77D8 /* NSTextStorage+Highlight.m */,
-				7625C4CB18F6E9E700EA77D8 /* NSTextStorage+ParagraphStyle.h */,
-				7625C4CC18F6E9E700EA77D8 /* NSTextStorage+ParagraphStyle.m */,
 			);
 			path = TextKitDemo;
 			sourceTree = "<group>";
@@ -139,6 +131,8 @@
 		7625C49818F6E06400EA77D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7625C4A018F6E06400EA77D8 /* TKDAppDelegate.h */,
+				7625C4A118F6E06400EA77D8 /* TKDAppDelegate.m */,
 				7625C49918F6E06400EA77D8 /* TextKitDemo-Info.plist */,
 				7625C49A18F6E06400EA77D8 /* InfoPlist.strings */,
 				7625C49D18F6E06400EA77D8 /* main.m */,
@@ -163,6 +157,36 @@
 				7625C4B918F6E06400EA77D8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76B5094618F7C944002D8036 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7625C4C818F6E80B00EA77D8 /* NSTextStorage+Highlight.h */,
+				7625C4C918F6E80B00EA77D8 /* NSTextStorage+Highlight.m */,
+				7625C4CB18F6E9E700EA77D8 /* NSTextStorage+ParagraphStyle.h */,
+				7625C4CC18F6E9E700EA77D8 /* NSTextStorage+ParagraphStyle.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		76B5094718F7C962002D8036 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7625C4A618F6E06400EA77D8 /* TKDViewController.h */,
+				7625C4A718F6E06400EA77D8 /* TKDViewController.m */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		76B5094818F7C96A002D8036 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7625C4A318F6E06400EA77D8 /* Main.storyboard */,
+				7625C4C618F6E51C00EA77D8 /* text.txt */,
+				7625C4A918F6E06400EA77D8 /* Images.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,6 +497,7 @@
 				7625C4C218F6E06400EA77D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7625C4C318F6E06400EA77D8 /* Build configuration list for PBXNativeTarget "TextKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -481,6 +506,7 @@
 				7625C4C518F6E06400EA77D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
